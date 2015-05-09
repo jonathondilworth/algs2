@@ -86,13 +86,13 @@ def add_new_node(net, m):
 # START OF PROGRAMME
 
 # initial number of nodes (n_0)
-n_initial = 20
+n_initial = 2
 
 # time step (total iterations, or nodes to be added to the network)
-t = 20
+t = 15
 
 # number of edges to be added to each new node (with preferential bias)
-m = 20
+m = 2
 
 # our graph
 g = nx.Graph()
