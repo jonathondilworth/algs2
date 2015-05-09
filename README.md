@@ -1,4 +1,4 @@
-# Advanced Algorithms 2 : COMP36212 (algs2)
+# Advanced Algorithms 2 : COMP36212
 
 This repo is where I am going to be pushing some general implementations of models from the advanced algorithms two module to. Also decided I am going to be slapping some general notes in this README file.
 
@@ -15,7 +15,7 @@ This repo is where I am going to be pushing some general implementations of mode
  	* ln(N) grows much slower than N -> a very large sized usually has a relatively small L. Additional reasoning: The numerator for L is growing very slowly and the denominator for L is decreasing, therefore L is increasing as N is increasing. **Therefore as more nodes are added to the network, the average path length is decreasing.**
  * Clustering Co-Efficient: C = p ~= <k> / N << 1.
  * Node Degree Distribution follows a Poisson distribution. (Need to think about this one a little more..)
- * ER Random graphs are not small world networks, even though they exhibit a small L. This is because they generally **do not have a large clustering co-efficient**, it is fairly small and C ~ p, which makes sense if you take a look at the figureOne in the repo. This leads to our next point..
+ * ER Random graphs are not small world networks, even though they exhibit a small L. This is because they generally **do not have a large clustering co-efficient**, it is fairly small and C ~ p, which makes sense if you take a look at the figureOne in the repo. This leads to our next point.
  * ER Random graphs have a small clustering coefficient (this is a distinguishing characteristic).
 
 
