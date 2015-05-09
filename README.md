@@ -21,4 +21,4 @@ This repo is where I am going to be pushing some general implementations of mode
 
  ## More info to be found at:
  * [My Personal Website](http://jonathondilworth.me/ "My Site")
- * [My Blog](jonathondilworth.blogspot.com "Blog")
+ * [My Blog](http://jonathondilworth.blogspot.com "Blog")
