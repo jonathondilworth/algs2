@@ -14,17 +14,12 @@ def rand(): # produces a random value between 0.0 and 1.0
 	d_rand = f_rand * 0.1
 	return d_rand
 
-
-
 def rand_float():
 	return random.random()
-
-
 
 # return a random integer between two values
 def rand_int(x,y):
 	return random.randint(x,y)
-
 
 
 # make a call to this function to calculate the preferential bias for a single node
@@ -32,7 +27,6 @@ def calculate_preferential_bias_on_node(network, node):
 	return (float((nx.degree(network,node) + 1)) / (float(sum(nx.degree(network).values()) + nx.number_of_nodes(network))))
 	# the reason why we're adding the number of nodes to the summation, is because its easier than individually adding
 	# one to every entry in the dictionary, and then summing it
-
 
 
 # make a call to this function to update the networks preferential bias
@@ -48,7 +42,6 @@ def calculate_preferential_bias_on_network(net):
 	nx.set_node_attributes(net, 'pb', updated_bias)
 
 
-
 # this function does exactly the same thing as the one above, but disregards the newest node
 # because this node doesn't effect the bias until its connections have been formed
 def calculate_preferential_bias_on_network_except_newest_node(net):
@@ -57,8 +50,7 @@ def calculate_preferential_bias_on_network_except_newest_node(net):
 		updated_bias[node] = calculate_preferential_bias_on_node(net, node)
 
 	nx.set_node_attributes(net, 'pb', updated_bias)
-
-		
+	
 
 # call this function to add some number of initial nodes to the network
 def add_initial_nodes(net, number_of_nodes_to_be_added):
@@ -68,7 +60,6 @@ def add_initial_nodes(net, number_of_nodes_to_be_added):
 
 	# now that all the nodes have been added, we can calculate the initial preferential bias
 	calculate_preferential_bias_on_network(net)
-
 
 
 def add_new_node(net, m):
@@ -91,11 +82,6 @@ def add_new_node(net, m):
 				# now we have a new edge, we have a new preferential bias
 				#calculate_preferential_bias_on_network_except_newest_node(net)
 				break
-
-
-
-# TODO: ADD AN ANIMATION FUNCTION: show each node being added individually
-
 
 # START OF PROGRAMME
 
