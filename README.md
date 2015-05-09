@@ -2,11 +2,28 @@
 
 This repo is where I am going to be pushing some general implementations of models from the advanced algorithms two module to. Also decided I am going to be slapping some general notes in this README file.
 
-## Currently contains:
+## Currently contains: (will eventually get round to changing this to an index)
  * An implementation for the generation of the ER Random, complex network model.
  * Some notes about structural properties of:
  	* ER-Random Networks.
  * Hopefully I won't forget to add more here when I actually commit other code.. (I am only human!)
+
+## Things you will need to know about (I think):
+ * Average Path Length (size)
+ * Global Clustering Coefficient (density)
+ * Degree Distribution (connectivity)
+ * Topological Characteristics:
+ 	* Centrality (Degree, Closeness, Betweenness)
+ 	* Mixing Patterns
+ * Classification & properties of different network models:
+ 	* ER-Random
+ 	* Small World:
+ 		* Watts-Strogatz
+ 		* Newman-Watts
+ 	* Scale Free:
+ 		* Barabási and Albert (BA) Model
+ 		* BA Variant: Rewiring
+ 		* BA Variant: Competition
 
 ## ER-Random Complex Networks
 
