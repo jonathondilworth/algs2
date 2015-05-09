@@ -28,9 +28,26 @@ Its also important to note that these types of graphs have an **emergent feature
 
 Check out the Small-World-Network folder in the Repo.
 
+Small world networks are more like real world networks, two distinguishing characteristics of small world networks are as follows:
+ * Short AVG path length.
+ * High clustering coefficient.
 
+And there exist two primary models that we need to know about (for the exam anyway):
+ * [Watts-Strogatz Model](http://en.wikipedia.org/wiki/Watts_and_Strogatz_model "wiki link")
+ * Newman-Watts variant of the Watts-Strogatz Model.
+
+### Watts-Strogatz Small World Algorithm
+ 1. Initialise a regular nearest-neighbour coupled network of N nodes arranged in a ring, in which each node i is symmetrically connected to its nearest neighbours i ± 1, i ± 2, ..., i ± K/2 with K an even integer (being the number of adjacent nodes to i). The number of links is NK/2.
+ 2. Randomisation: Randomly rewire each link of the network with probability p:
+ 	a. For every node i (i = 1,...,N), each link connected to a clockwise (or counter-clockwise) neighbour of i is rewired to a randomly chosen node (from anywhere in the network) with a probability of p.
+ 	b. The link will be preserved with a probability 1 - p.
+
+ Now I'm going to try and implement this...
 
 
  ## More info to be found at:
  * [My Personal Website](http://jonathondilworth.me/ "My Site")
  * [My Blog](http://jonathondilworth.blogspot.com "Blog")
+
+ # References
+  * Eva Navarro Lopez (2015), Advanced Algorithms 2 Lecture Slides, University of Manchester.
