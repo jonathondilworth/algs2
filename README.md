@@ -41,7 +41,7 @@ And there exist two primary models that we need to know about (for the exam anyw
  2. Randomisation: Randomly rewire each link of the network with probability p:
  	a. For every node i (i = 1,...,N), each link connected to a clockwise (or counter-clockwise) neighbour of i is rewired to a randomly chosen node (from anywhere in the network) with a probability of p.
  	b. The link will be preserved with a probability 1 - p.
-
+ 3. end..
 
  Now I'm going to try and implement this...
 
