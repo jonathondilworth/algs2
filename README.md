@@ -18,7 +18,9 @@ This repo is where I am going to be pushing some general implementations of mode
  * ER Random graphs are not small world networks, even though they exhibit a small L. This is because they generally **do not have a large clustering co-efficient**, it is fairly small and C ~ p, which makes sense if you take a look at the figureOne in the repo.
  * ER Random graphs have a small clustering coefficient (this is a distinguishing characteristic).
 
-Its also important to note that these types of graphs have an **emergent feature**, in this case, you generally see the appearance of cycles or a [giant component](http://en.wikipedia.org/wiki/Giant_component){Wiki Link} at some threshold value of p.
+Its also important to note that these types of graphs have an **emergent feature**, in this case, you generally see the appearance of cycles or a [giant component](http://en.wikipedia.org/wiki/Giant_component "wiki link") at some threshold value of p.
+
+
 
 
  ## More info to be found at:

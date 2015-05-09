@@ -41,6 +41,7 @@ for x in range (0, n):
 
 print("Actual number of edges: " + str(g.number_of_edges()))
 
+
 # lets draw this lovely thing!
 nx.draw(g, pos=nx.circular_layout(g))
 plt.show()
