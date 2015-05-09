@@ -46,7 +46,7 @@ And there exist two primary models that we need to know about (for the exam anyw
 Now I'm going to try and implement this...
 
 
- ## More info to be found at:
+## More info to be found at:
  * [My Personal Website](http://jonathondilworth.me/ "My Site")
  * [My Blog](http://jonathondilworth.blogspot.com "Blog")
 
