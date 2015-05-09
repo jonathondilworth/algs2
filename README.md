@@ -42,6 +42,7 @@ And there exist two primary models that we need to know about (for the exam anyw
  	a. For every node i (i = 1,...,N), each link connected to a clockwise (or counter-clockwise) neighbour of i is rewired to a randomly chosen node (from anywhere in the network) with a probability of p.
  	b. The link will be preserved with a probability 1 - p.
 
+
  Now I'm going to try and implement this...
 
 
