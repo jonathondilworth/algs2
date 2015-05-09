@@ -68,3 +68,4 @@ Implementation!
 
 # References
  * Eva Navarro Lopez (2015), Advanced Algorithms 2 Lecture Slides, University of Manchester.
+ * Alain Barrat, Marc Barthelemy, Alessando Vespignani (2008), Dynamical Processes on Complex Networks, Cambridge University Press.
