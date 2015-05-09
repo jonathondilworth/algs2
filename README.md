@@ -47,8 +47,8 @@ And there exist two primary models that we need to know about (for the exam anyw
 
 
  ## More info to be found at:
- * [My Personal Website](http://jonathondilworth.me/ "My Site")
- * [My Blog](http://jonathondilworth.blogspot.com "Blog")
+  * [My Personal Website](http://jonathondilworth.me/ "My Site")
+  * [My Blog](http://jonathondilworth.blogspot.com "Blog")
 
  # References
   * Eva Navarro Lopez (2015), Advanced Algorithms 2 Lecture Slides, University of Manchester.
