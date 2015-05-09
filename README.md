@@ -43,12 +43,12 @@ And there exist two primary models that we need to know about (for the exam anyw
  	b. The link will be preserved with a probability 1 - p.
  3. end..
 
- Now I'm going to try and implement this...
+Now I'm going to try and implement this...
 
 
  ## More info to be found at:
-  * [My Personal Website](http://jonathondilworth.me/ "My Site")
-  * [My Blog](http://jonathondilworth.blogspot.com "Blog")
+ * [My Personal Website](http://jonathondilworth.me/ "My Site")
+ * [My Blog](http://jonathondilworth.blogspot.com "Blog")
 
  # References
   * Eva Navarro Lopez (2015), Advanced Algorithms 2 Lecture Slides, University of Manchester.
