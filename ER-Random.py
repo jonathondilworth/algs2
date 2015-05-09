@@ -15,8 +15,7 @@ def predicted_number_of_edges(p, N):
 	return (p * N * (N - 1)) / 2
 
 # probability p
-p = 1.0
-
+p = 0.5
 # number of nodes
 n = 12
 
