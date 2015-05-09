@@ -8,6 +8,10 @@ This repo is where I am going to be pushing some general implementations of mode
  	* ER-Random Networks.
  * Hopefully I won't forget to add more here when I actually commit other code.. (I am only human!)
 
+## ER-Random Complex Networks
+
+Check out the ER-Random folder in the Repo.
+
 ### Structural Properties of ER-Random Network Graphs:
  * AVG Node Degree: < k > = 2M / N = p(N - 1) ~= pN.
  * AVG Path Length: L ~ ln(N) / ln(< k >).
@@ -19,6 +23,10 @@ This repo is where I am going to be pushing some general implementations of mode
  * ER Random graphs have a small clustering coefficient (this is a distinguishing characteristic).
 
 Its also important to note that these types of graphs have an **emergent feature**, in this case, you generally see the appearance of cycles or a [giant component](http://en.wikipedia.org/wiki/Giant_component "wiki link") at some threshold value of p.
+
+## Small World Networks
+
+Check out the Small-World-Network folder in the Repo.
 
 
 
