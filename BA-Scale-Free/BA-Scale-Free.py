@@ -80,7 +80,7 @@ def add_new_node(net, m):
 			if p < roulette_wheel: # don't need to check if edge already exists, because networkx is clever!
 				net.add_edge(new_node_id, node)
 				# now we have a new edge, we have a new preferential bias
-				#calculate_preferential_bias_on_network_except_newest_node(net)
+				calculate_preferential_bias_on_network_except_newest_node(net)
 				break
 
 # START OF PROGRAMME
@@ -103,7 +103,6 @@ add_initial_nodes(g, n_initial)
 # for every timestep t, add a new node with preferential bias
 for timestep in range (0, t):
 	add_new_node(g, m)
-	calculate_preferential_bias_on_network(g)
 
 # output the global clustering co-efficient
 print(sum(nx.clustering(g).values()) / nx.number_of_nodes(g))
